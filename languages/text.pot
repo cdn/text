@@ -1,33 +1,13 @@
-#: ./Entry.php:116
-msgid "You can\'t save an empty entry."
+#: ./ContentType.php:8
+msgid "Post"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:36
-msgid "New Post"
+#: ./ContentType.php:9
+msgid "Posts"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:42
-msgid "Edit Post"
-msgstr ""
-
-#: ./templates/default/entity/Entry/edit.tpl.php:50
-msgid "Title"
-msgstr ""
-
-#: ./templates/default/entity/Entry/edit.tpl.php:51
-msgid "Give it a title"
-msgstr ""
-
-#: ./templates/default/entity/Entry/edit.tpl.php:75
-msgid "Cancel"
-msgstr ""
-
-#: ./templates/default/entity/Entry/edit.tpl.php:76
-msgid "Publish"
-msgstr ""
-
-#: ./templates/default/entity/Entry.tpl.php:33
-msgid "%d min read"
+#: ./Entry.php:148
+msgid "You can't save an empty entry."
 msgstr ""
 
 #: ./Pages/Delete.php:27
@@ -52,5 +32,49 @@ msgstr ""
 
 #: ./Pages/Edit.php:44
 msgid "Edit entry"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:48
+msgid "New Post"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:54
+msgid "Edit Post"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:62
+msgid "Title"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:63
+msgid "Give it a title"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:126
+#: ./templates/default/entity/Entry/edit.tpl.php:175
+msgid "Add the URL that you're replying to"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:130
+#: ./templates/default/entity/Entry/edit.tpl.php:178
+msgid "Remove URL"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:115
+msgid "Reply to a site"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:149
+msgid "Cancel"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:150
+msgid "Publish"
+msgstr ""
+
+#: ./templates/default/entity/Entry.tpl.php:33
+msgid "%d min read"
 msgstr ""
 
