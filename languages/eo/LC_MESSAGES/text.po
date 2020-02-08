@@ -1,0 +1,85 @@
+#: ./ContentType.php:8
+msgid "Post"
+msgstr "Afiŝu"
+
+#: ./ContentType.php:9
+msgid "Posts"
+msgstr "Eniroj"
+# Entries
+# msgstr "Afisoj"
+# Posters
+# msgstr "Afiŝoj"
+# diacritics trip up other parts of the system
+
+#: ./Entry.php:116
+msgid "You can't save an empty entry."
+msgstr "Vi ne povas konservi malplenan eniron."
+
+#: ./Pages/Delete.php:27
+msgid "Delete %s"
+msgstr "Forigi %s"
+
+#: ./Pages/Delete.php:41
+msgid "You don't have permission to perform this task."
+msgstr "Vi ne havas permeson plenumi ĉi tiun taskon."
+
+#: ./Pages/Delete.php:46
+msgid "%s was deleted."
+msgstr "%s estis forigita."
+
+#: ./Pages/Delete.php:48
+msgid "We couldn't delete %s."
+msgstr "Ni ne povis forigi %s."
+
+#: ./Pages/Edit.php:42
+msgid "Write an entry"
+msgstr "Skribu enskribon"
+
+#: ./Pages/Edit.php:44
+msgid "Edit entry"
+msgstr "Redakti eniron"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:36
+msgid "New Post"
+msgstr "Nova Afiŝo"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:42
+msgid "Edit Post"
+msgstr "Redakti Afiŝon"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:50
+msgid "Title"
+msgstr "Titolo"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:51
+msgid "Give it a title"
+msgstr "Donu al ĝi titolon"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:126
+#: ./templates/default/entity/Entry/edit.tpl.php:175
+msgid "Add the URL that you're replying to"
+msgstr "Aldonu la URL al kiu vi respondas"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:130
+#: ./templates/default/entity/Entry/edit.tpl.php:178
+msgid "Remove URL"
+msgstr "Forigi URLon"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:115
+msgid "Reply to a site"
+msgstr "Respondu al retejo"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:75
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:76
+msgid "Publish"
+msgstr "Publikigi"
+
+#: ./templates/default/entity/Entry.tpl.php:33
+msgid "%d min read"
+msgstr "%d minutojn legitajn"
+
