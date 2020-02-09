@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: $EDITOR\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: da_DK\n"
+
+#: ./ContentType.php:8
+msgid "Post"
+msgstr "Indlæg"
+
+#: ./ContentType.php:9
+msgid "Posts"
+msgstr "Poster"
+# Entries / Records
+# singular as plural would include the ae ligature
+# and break URL handling of this content type
+
+#: ./Entry.php:148
+msgid "You can't save an empty entry."
+msgstr "Du kan ikke gemme en tom post."
+
+#: ./Pages/Delete.php:27
+msgid "Delete %s"
+msgstr "Slet %s"
+
+#: ./Pages/Delete.php:41
+msgid "You don't have permission to perform this task."
+msgstr "Du har ikke tilladelse til at udføre denne opgave."
+
+#: ./Pages/Delete.php:46
+msgid "%s was deleted."
+msgstr "%s blev slettet."
+
+#: ./Pages/Delete.php:48
+msgid "We couldn't delete %s."
+msgstr "Vi kunne ikke slette %s."
+
+#: ./Pages/Edit.php:42
+msgid "Write an entry"
+msgstr "Skriv en post"
+
+#: ./Pages/Edit.php:44
+msgid "Edit entry"
+msgstr "Redigere indtastning"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:48
+msgid "New Post"
+msgstr "Nyt indlæg"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:54
+msgid "Edit Post"
+msgstr "Rediger indlæg"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:62
+msgid "Title"
+msgstr "Titel"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:63
+msgid "Give it a title"
+msgstr "Giv det en titel"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:126
+#: ./templates/default/entity/Entry/edit.tpl.php:175
+msgid "Add the URL that you're replying to"
+msgstr "Tilføj den URL-adresse, du besvarer"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:130
+#: ./templates/default/entity/Entry/edit.tpl.php:178
+msgid "Remove URL"
+msgstr "Fjern URL-adresse"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:115
+msgid "Reply to a site"
+msgstr "Svar på et websted"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:149
+msgid "Cancel"
+msgstr "Annullere"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:150
+msgid "Publish"
+msgstr "Udgive"
+
+#: ./templates/default/entity/Entry.tpl.php:33
+msgid "%d min read"
+msgstr "%d minutter læse ..."
