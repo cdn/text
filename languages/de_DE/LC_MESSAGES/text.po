@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Nano 2.7.4+Bing Translator+Atom\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: de_DE\n"
+
+#: ./ContentType.php:8
+msgid "Post"
+msgstr "Beitrag"
+
+#: ./ContentType.php:9
+msgid "Posts"
+msgstr "Artikel"
+# diacritical issues with "Beiträge,Einträge"
+
+#: ./Entry.php:148
+msgid "You can't save an empty entry."
+msgstr "Sie können keinen leeren Eintrag speichern."
+
+#: ./Pages/Delete.php:27
+msgid "Delete %s"
+msgstr "%s löschen"
+
+#: ./Pages/Delete.php:41
+msgid "You don't have permission to perform this task."
+msgstr "Sie sind nicht berechtigt, diese Aufgabe auszuführen."
+
+#: ./Pages/Delete.php:46
+msgid "%s was deleted."
+msgstr "%s wurde gelöscht."
+
+#: ./Pages/Delete.php:48
+msgid "We couldn't delete %s."
+msgstr "%s konnte nicht gelöscht werden."
+
+#: ./Pages/Edit.php:42
+msgid "Write an entry"
+msgstr "Schreiben eines Eintrags"
+
+#: ./Pages/Edit.php:44
+msgid "Edit entry"
+msgstr "Edit-Eintrag"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:48
+msgid "New Post"
+msgstr "Neuer Artikel"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:54
+msgid "Edit Post"
+msgstr "Artikel bearbeiten"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:62
+msgid "Title"
+msgstr "Titel"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:63
+msgid "Give it a title"
+msgstr "Geben Sie ihm einen Titel"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:126
+#: ./templates/default/entity/Entry/edit.tpl.php:175
+msgid "Add the URL that you're replying to"
+msgstr "Hinzufügen der URL, auf die Sie antworten"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:114
+#: ./templates/default/entity/Entry/edit.tpl.php:130
+#: ./templates/default/entity/Entry/edit.tpl.php:178
+msgid "Remove URL"
+msgstr "URL entfernen"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:115
+msgid "Reply to a site"
+msgstr "Antworten auf eine Website"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:149
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ./templates/default/entity/Entry/edit.tpl.php:150
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: ./templates/default/entity/Entry.tpl.php:33
+msgid "%d min read"
+msgstr "%d Min lesen..."
