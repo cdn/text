@@ -33,6 +33,13 @@ namespace IdnoPlugins\Text {
             return '';
         }
 
+        function getShortDescription() {
+
+            if (!empty($this->subtitle)) return $this->subtitle;
+
+            return '';
+        }
+
         function getURL()
         {
 
@@ -102,6 +109,7 @@ namespace IdnoPlugins\Text {
 
                 $this->body  = $body;
                 $this->title = \Idno\Core\Idno::site()->currentPage()->getInput('title');
+                $this->subtitle = \Idno\Core\Idno::site()->currentPage()->getInput('subtitle');
 
                 $inreplyto = \Idno\Core\Idno::site()->currentPage()->getInput('inreplyto');
                 $this->inreplyto = $inreplyto;
@@ -171,7 +179,8 @@ namespace IdnoPlugins\Text {
                     "name" => $this->getOwner()->getName()
                 ],
                 'headline' => $this->getTitle(),
-                'description' => $this->body,
+                'description' => $this->getShortDescription(),
+                'text' => $this->body,
                 'url' => $this->getUrl(),
                 'image' => $this->getIcon()
             ];
