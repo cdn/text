@@ -50,31 +50,38 @@ msgstr ""
 msgid "Give it a title"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:114
-#: ./templates/default/entity/Entry/edit.tpl.php:126
+#: ./templates/default/entity/Entry/edit.tpl.php:72
+msgid "Subtitle"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:73
+msgid "Optional sub title for this post"
+msgstr ""
+
+#: ./templates/default/entity/Entry/edit.tpl.php:124
+#: ./templates/default/entity/Entry/edit.tpl.php:136
 #: ./templates/default/entity/Entry/edit.tpl.php:175
 msgid "Add the URL that you're replying to"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:114
-#: ./templates/default/entity/Entry/edit.tpl.php:130
-#: ./templates/default/entity/Entry/edit.tpl.php:178
+#: ./templates/default/entity/Entry/edit.tpl.php:124
+#: ./templates/default/entity/Entry/edit.tpl.php:140
+#: ./templates/default/entity/Entry/edit.tpl.php:188
 msgid "Remove URL"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:115
+#: ./templates/default/entity/Entry/edit.tpl.php:125
 msgid "Reply to a site"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:149
+#: ./templates/default/entity/Entry/edit.tpl.php:159
 msgid "Cancel"
 msgstr ""
 
-#: ./templates/default/entity/Entry/edit.tpl.php:150
+#: ./templates/default/entity/Entry/edit.tpl.php:160
 msgid "Publish"
 msgstr ""
 
 #: ./templates/default/entity/Entry.tpl.php:33
 msgid "%d min read"
 msgstr ""
-
