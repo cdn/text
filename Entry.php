@@ -74,7 +74,6 @@ namespace IdnoPlugins\Text {
             $meta = array('type' => 'entry');
             if ($this->inreplyto) {
                 $meta['in-reply-to'] = $this->inreplyto;
-            //    $meta['type'] = 'reply';
             }
             return $meta;
         }
@@ -85,7 +84,8 @@ namespace IdnoPlugins\Text {
          */
         function getIcon()
         {
-            $doc = @\DOMDocument::loadHTML($this->getDescription());
+            $doc = new \DOMDocument();
+               $doc->loadHTML( $this->getDescription() );
             if ($doc) {
                 $xpath = new \DOMXPath($doc);
                 $src   = $xpath->evaluate("string(//img/@src)");
@@ -109,7 +109,7 @@ namespace IdnoPlugins\Text {
 
                 $this->body  = $body;
                 $this->title = \Idno\Core\Idno::site()->currentPage()->getInput('title');
-                $this->subtitle = \Idno\Core\Idno::site()->currentPage()->getInput('subtitle');
+                $this->short_description = \Idno\Core\Idno::site()->currentPage()->getInput('subtitle');
 
                 $inreplyto = \Idno\Core\Idno::site()->currentPage()->getInput('inreplyto');
                 $this->inreplyto = $inreplyto;
